@@ -1,7 +1,6 @@
 {
   "name": "rm-ng-range-slider",
-  "version": "3.0.0",
-  "license": "MIT",
+  "version": "4.0.0",
   "description": "A highly optimized and fully customizable pure angular component for value range selection.",
   "keywords": [
     "range",
@@ -24,37 +23,223 @@
     "security",
     "performance",
     "treeshakable",
-    "tree-shakable"
+    "tree-shakable",
+    "angular",
+    "angular slider",
+    "angular range slider",
+    "dual range slider",
+    "two thumb slider",
+    "price range slider",
+    "custom angular component",
+    "angular ui component",
+    "standalone angular",
+    "angular signals",
+    "high performance angular",
+    "lightweight angular library",
+    "tree shakable",
+    "responsive slider",
+    "accessible slider",
+    "angular forms",
+    "control value accessor",
+    "ngx slider alternative",
+    "modern angular ui",
+    "angular",
+    "angular slider",
+    "angular range slider",
+    "angular dual range slider",
+    "angular multi range slider",
+    "angular two handle slider",
+    "angular two thumb slider",
+    "angular price range slider",
+    "angular input range",
+    "angular slider component",
+    "angular ui slider",
+    "angular custom slider",
+    "angular reusable slider",
+    "modern angular component",
+    "angular standalone component",
+    "angular standalone slider",
+    "angular signals",
+    "angular signals slider",
+    "signal based angular component",
+    "zoneless angular component",
+    "onpush angular slider",
+    "angular 17 slider",
+    "angular 18 slider",
+    "angular 19 slider",
+    "angular 20 slider",
+    "angular 21 slider",
+    "high performance angular component",
+    "lightweight angular slider",
+    "tree shakable angular library",
+    "low bundle size angular component",
+    "performance optimized angular ui",
+    "enterprise ready angular component",
+    "scalable angular application ui",
+    "large scale angular ui component",
+    "web vitals optimized angular",
+    "custom slider ui",
+    "fully customizable slider",
+    "css customizable slider",
+    "scss customizable slider",
+    "themeable angular component",
+    "design system friendly slider",
+    "responsive angular slider",
+    "mobile friendly slider",
+    "touch enabled slider",
+    "smooth slider animation",
+    "modern ui angular component",
+    "material design alternative slider",
+    "bootstrap compatible slider",
+    "tailwind compatible slider",
+    "accessible angular slider",
+    "aria compliant slider",
+    "keyboard accessible slider",
+    "screen reader friendly slider",
+    "wcag compliant angular component",
+    "a11y angular component",
+    "inclusive ui angular",
+    "angular reactive forms slider",
+    "template driven forms slider",
+    "control value accessor slider",
+    "angular forms integration",
+    "form control range slider",
+    "dynamic form slider",
+    "validation friendly slider",
+    "price filter slider",
+    "ecommerce price range filter",
+    "product filter slider",
+    "dashboard filter slider",
+    "analytics range filter",
+    "date range slider",
+    "numeric range filter",
+    "salary range slider",
+    "budget range slider",
+    "loan calculator slider",
+    "emi calculator slider",
+    "financial range selector",
+    "touch friendly angular slider",
+    "mobile optimized slider",
+    "tablet friendly slider",
+    "cross browser angular component",
+    "cross platform ui component",
+    "pwa compatible slider",
+    "ngx slider alternative",
+    "ngx-slider alternative",
+    "angular material slider alternative",
+    "no dependency angular slider",
+    "pure angular slider",
+    "custom slider instead of material",
+    "easy to use angular library",
+    "developer friendly angular component",
+    "plug and play angular slider",
+    "minimal configuration slider",
+    "clean api angular component",
+    "well documented angular library",
+    "production ready angular component",
+    "unit tested angular component",
+    "jest tested angular library",
+    "playwright tested angular component",
+    "e2e tested angular slider",
+    "robust angular ui library",
+    "enterprise ui component",
+    "banking application slider",
+    "fintech angular ui",
+    "healthcare angular ui component",
+    "insurance application slider",
+    "saas dashboard slider",
+    "best angular range slider library",
+    "angular dual range slider example",
+    "angular price range slider example",
+    "how to create range slider in angular",
+    "angular slider without material",
+    "high performance angular range slider",
+    "lightweight angular dual slider",
+    "standalone angular range slider",
+    "angular slider with reactive forms",
+    "custom range slider angular example"
   ],
   "author": {
     "name": "Rajat Malik",
     "email": "mr.rajatmalik@gmail.com",
-    "url": "https://www.linkedin.com/in/errajatmalik/"
+    "url": "https://www.rajatmalik.dev/"
   },
+  "contributors": [
+    {
+      "name": "Rajat Malik",
+      "email": "mr.rajatmalik@gmail.com"
+    }
+  ],
+  "maintainers": [
+    {
+      "name": "Rajat Malik",
+      "email": "mr.rajatmalik@gmail.com"
+    }
+  ],
   "homepage": "https://github.com/malikrajat/rm-ng-range-slider#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/malikrajat/rm-ng-range-slider.git"
+    "url": "git+https://github.com/malikrajat/rm-ng-range-slider.git"
   },
   "bugs": {
-    "url": "https://github.com/malikrajat/rm-ng-range-slider/issues"
+    "url": "https://github.com/malikrajat/rm-ng-range-slider/issues",
+    "email": "mr.rajatmalik@gmail.com"
   },
   "peerDependencies": {
-    "@angular/common": ">=16.0.0 <20.0.0",
-    "@angular/core": ">=16.0.0 <20.0.0"
+    "@angular/common": ">=16.0.0 <24.0.0",
+    "@angular/core": ">=16.0.0 <24.0.0"
   },
   "dependencies": {
     "tslib": "^2.3.0"
   },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "funding": {
+    "type": "individual",
+    "url": "https://github.com/sponsors/malikrajat"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  },
+  "os": [
+    "darwin",
+    "linux",
+    "win32"
+  ],
+  "cpu": [
+    "x64",
+    "arm64"
+  ],
+  "ng-add": {
+    "save": "dependencies"
+  },
+  "ng-update": {
+    "packageGroup": [
+      "rm-ng-range-slider"
+    ]
+  },
+  "directories": {
+    "lib": "./src",
+    "doc": "./docs"
+  },
+  "packageManager": "pnpm@10.11.1",
+  "license": "MIT",
+  "type": "module",
   "sideEffects": false,
+  "private": false,
+  "preferGlobal": false,
+  "readme": "README.md",
   "module": "fesm2022/rm-ng-range-slider.mjs",
-  "typings": "index.d.ts",
+  "typings": "types/rm-ng-range-slider.d.ts",
   "exports": {
     "./package.json": {
       "default": "./package.json"
     },
     ".": {
-      "types": "./index.d.ts",
+      "types": "./types/rm-ng-range-slider.d.ts",
       "default": "./fesm2022/rm-ng-range-slider.mjs"
     }
   }
