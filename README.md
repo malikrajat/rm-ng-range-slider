@@ -4,8 +4,8 @@
   <img src="https://img.shields.io/npm/v/rm-ng-range-slider.svg" alt="npm version">
   <img src="https://img.shields.io/badge/Stability-production--ready-success" alt="Production ready">
   <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="license">
-    <img src="https://img.shields.io/badge/Ivy-compatible-success" alt="Ivy compatible">
-  <img src="https://img.shields.io/badge/Angular-14%20to%2021-blue" alt="Angular support range">
+  <img src="https://img.shields.io/badge/Ivy-compatible-success" alt="Ivy compatible">
+  <img src="https://img.shields.io/badge/Angular-14%20to%22-blue" alt="Angular support range">
   <img src="https://img.shields.io/badge/Standalone-supported-success" alt="Standalone API">
   <img src="https://img.shields.io/badge/AOT-compatible-blue" alt="AOT compatible">
   <img src="https://img.shields.io/badge/SSR-compatible-success" alt="SSR compatible">
@@ -28,6 +28,7 @@
   <img src="https://img.shields.io/github/issues/malikrajat/rm-ng-range-slider" alt="Open issues">
   <img src="https://img.shields.io/github/stars/malikrajat/rm-ng-range-slider" alt="GitHub stars">
 </p>
+
 
 ## See It In Action
 
@@ -66,57 +67,72 @@ Advanced, customizable, optimized, minimal, lightweight and fully customizable p
 - [Examples](./examples/README.md)
 - [Usage Examples](./docs/USAGE.md)
 
+---
 
-## Dependency Overview
+## Live Demo & Playground
 
-`rm-ng-range-slider` is designed to be lightweight with zero production dependencies. It only has peer dependencies on core Angular libraries that are already part of your application.
+<div align="center">
 
-- **@angular/core**: `(>=16.0.0 <24.0.0)`
-- **@angular/common**: `(>=16.0.0 <24.0.0)`
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <a href="https://stackblitz.com/edit/stackblitz-starters-82qcpd" target="_blank">
+        <img src="https://img.shields.io/badge/⚡_StackBlitz_Demo-1976D2?style=for-the-badge&logo=stackblitz&logoColor=white" alt="StackBlitz Demo"/>
+      </a>
+      <br/>
+      <sub><b>Interactive Playground</b></sub><br/>
+      <sub>Try all features live in your browser</sub>
+    </td>
+    <td align="center" width="50%">
+      <a href="https://github.com/malikrajat/rm-ng-range-slider/blob/master/examples/README.md" target="_blank">
+        <img src="https://img.shields.io/badge/📚_Code_Examples-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Examples"/>
+      </a>
+      <br/>
+      <sub><b>Complete Examples</b></sub><br/>
+      <sub>Copy-paste ready code samples</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="50%">
+      <br/>
+      <a href="https://www.npmjs.com/package/rm-ng-range-slider" target="_blank">
+        <img src="https://img.shields.io/badge/📦_npm_Package-CB3837?style=for-the-badge&logo=npm&logoColor=white" alt="npm Package"/>
+      </a>
+      <br/>
+      <sub><b>npm Registry</b></sub><br/>
+      <sub>Install and view package details</sub>
+    </td>
+    <td align="center" width="50%">
+      <br/>
+      <a href="https://github.com/malikrajat/rm-ng-range-slider" target="_blank">
+        <img src="https://img.shields.io/badge/⭐_GitHub_Repo-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Repository"/>
+      </a>
+      <br/>
+      <sub><b>Source Code</b></sub><br/>
+      <sub>Star, fork, and contribute</sub>
+    </td>
+  </tr>
+</table>
 
-This ensures that the library integrates smoothly without adding unnecessary bloat to your project. For more details, see the [Peer Dependencies](./docs/PEER_DEPENDENCIES.md) documentation.
+</div>
 
-## Compatibility
+---
 
-### Angular Version Support
+## Features
 
-This library is built to support a wide range of Angular versions. The required peer dependency versions are:
+- **Dual Thumb Range Selection** - Select both minimum and maximum values with two independent thumbs
+- **Highly Optimized Performance** - Component doesn't re-render while dragging, only labels update
+- **Fully Customizable Colors** - Customize thumb colors, track colors, and tooltip colors
+- **Real-Time Tooltips** - Display current values in customizable tooltips above each thumb
+- **Smooth Animations** - Fluid thumb movements and value transitions
+- **Type-Safe** - Full TypeScript support with comprehensive type definitions
+- **Zero Dependencies** - Pure Angular implementation with no external dependencies
+- **Tree-Shakable** - Optimized for modern build tools to minimize bundle size
+- **Angular 18+ Support** - Compatible with modern Angular versions including standalone components
+- **Lightweight** - Minimal footprint with maximum performance
+- **Production Ready** - Battle-tested in real-world applications
 
-| Angular Version | `rm-ng-range-slider` Support |
-|-----------------|------------------------------|
-| 16              | Supported                    |
-| 17              | Supported                    |
-| 18              | Supported                    |
-| 19              | Supported                    |
-| 20              | Supported                    |
-| 21              | Supported                    |
-
-For more detailed information, please refer to our [Versioning & Angular Compatibility](./docs/VERSION_COMPATIBILITY.md) guide.
-
-### Browser Support
-
-The library supports all modern evergreen browsers.
-
-| Browser | Minimum Version |
-|---|---|
-| Chrome | 80+ |
-| Firefox | 75+ |
-| Edge | 80+ |
-| Safari | 13+ |
-| Opera | 67+ |
-
-Internet Explorer is **not** supported. For a detailed list of supported browsers and platforms, see the [Browser Support](./docs/BROWSER_SUPPORT.md) documentation.
-
-### Platform Support
-
-`rm-ng-range-slider` is platform-agnostic and runs on any operating system that supports a modern web browser and Angular, including:
-
-- Windows
-- macOS
-- Linux
-- iOS
-- Android
-
+---
 
 ## Quick Start
 
@@ -172,24 +188,9 @@ export class RangeExampleComponent {
   }
 }
 ```
-
-## Features
-
-- **Dual Thumb Range Selection** - Select both minimum and maximum values with two independent thumbs
-- **Highly Optimized Performance** - Component doesn't re-render while dragging, only labels update
-- **Fully Customizable Colors** - Customize thumb colors, track colors, and tooltip colors
-- **Real-Time Tooltips** - Display current values in customizable tooltips above each thumb
-- **Smooth Animations** - Fluid thumb movements and value transitions
-- **Type-Safe** - Full TypeScript support with comprehensive type definitions
-- **Zero Dependencies** - Pure Angular implementation with no external dependencies
-- **Tree-Shakable** - Optimized for modern build tools to minimize bundle size
-- **Angular 18+ Support** - Compatible with modern Angular versions including standalone components
-- **Lightweight** - Minimal footprint with maximum performance
-- **Production Ready** - Battle-tested in real-world applications
-
+---
 
 ## Live Examples
-
 
 Explore our comprehensive set of functional examples:
 
@@ -200,57 +201,7 @@ Explore our comprehensive set of functional examples:
 - [UX Best Practices](./examples/ux-best-practices) - Accessibility (ARIA) and touch-friendly design.
 - [Conditional Rendering](./examples/conditional-rendering) - Working with dynamic layouts and lifecycles.
 
-
-## Live Demo & Playground
-
-### Try it yourself! Interactive demos available now:
-
-<div align="center">
-
-<table>
-  <tr>
-    <td align="center" width="50%">
-      <a href="https://stackblitz.com/edit/stackblitz-starters-82qcpd" target="_blank">
-        <img src="https://img.shields.io/badge/⚡_StackBlitz_Demo-1976D2?style=for-the-badge&logo=stackblitz&logoColor=white" alt="StackBlitz Demo"/>
-      </a>
-      <br/>
-      <sub><b>Interactive Playground</b></sub><br/>
-      <sub>Try all features live in your browser</sub>
-    </td>
-    <td align="center" width="50%">
-      <a href="https://github.com/malikrajat/rm-ng-range-slider" target="_blank">
-        <img src="https://img.shields.io/badge/📚_Code_Examples-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Examples"/>
-      </a>
-      <br/>
-      <sub><b>Complete Examples</b></sub><br/>
-      <sub>Copy-paste ready code samples</sub>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="50%">
-      <br/>
-      <a href="https://www.npmjs.com/package/rm-ng-range-slider" target="_blank">
-        <img src="https://img.shields.io/badge/📦_npm_Package-CB3837?style=for-the-badge&logo=npm&logoColor=white" alt="npm Package"/>
-      </a>
-      <br/>
-      <sub><b>npm Registry</b></sub><br/>
-      <sub>Install and view package details</sub>
-    </td>
-    <td align="center" width="50%">
-      <br/>
-      <a href="https://github.com/malikrajat/rm-ng-range-slider" target="_blank">
-        <img src="https://img.shields.io/badge/⭐_GitHub_Repo-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Repository"/>
-      </a>
-      <br/>
-      <sub><b>Source Code</b></sub><br/>
-      <sub>Star, fork, and contribute</sub>
-    </td>
-  </tr>
-</table>
-
-</div>
-
-
+---
 
 ## Installation & Setup
 
@@ -260,27 +211,76 @@ For detailed installation instructions, see our [Installation Guide](./docs/INST
 
 For comprehensive usage examples and API documentation, see our [Usage Guide](./docs/USAGE.md).
 
+---
+
+## Changelog
+
+See [CHANGELOG.md](CHANGELOG.md)  for release history and updates.
+
+---
+
+### Latest Release
+
+Check the [releases page](https://github.com/malikrajat/rm-ng-range-slider/releases) for the most recent version and updates.
+
+---
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
+**TL;DR:** You can use this library freely in commercial and personal projects.
 
-## Support This Project
+### MIT License Summary
 
-If **rm-ng-range-slider** has helped you build better Angular applications, please consider:
+**You can:**
+- Use commercially
+- Modify the code
+- Distribute
+- Use privately
 
-### Star This Repository
+**You must:**
+- Include the license and copyright notice
 
-A star helps other developers discover this library!
+**You cannot:**
+- Hold the author liable
 
-[![GitHub stars](https://img.shields.io/github/stars/malikrajat/rm-ng-range-slider?style=social)](https://github.com/malikrajat/rm-ng-range-slider/stargazers)
+---
 
-### Why Your Star Matters
+## Browser Compatibility
 
-- Increases visibility in the Angular community
-- Supports ongoing development and maintenance
-- Encourages more open-source contributions
-- Helps other developers find quality tools
+### Supported Browsers
+
+| Browser | Version | Support Level | Notes |
+|---------|---------|---------------|-------|
+| Chrome | 80+ | Full Support | Recommended browser |
+| Firefox | 75+ | Full Support | Works perfectly |
+| Safari | 13+ | Full Support | iOS and macOS |
+| Edge | 80+ | Full Support | Chromium-based |
+| Opera | 67+ | Full Support | Works well |
+| Samsung Internet | 12+ | Full Support | Mobile support |
+
+### Mobile Support
+
+- iOS Safari 13+
+- Chrome for Android 80+
+- Samsung Internet
+- All mobile browsers with modern JavaScript support
+
+### Download Behavior by Platform
+
+| Platform | Behavior |
+|----------|----------|
+| Desktop Chrome/Firefox/Edge | Direct download to Downloads folder |
+| Desktop Safari | May prompt for download location |
+| iOS Safari | Opens download manager |
+| Android Chrome | Downloads to Downloads folder |
+| Mobile Safari | Shows share sheet with save option |
+
+### Not Supported
+
+- Internet Explorer (all old versions)
+- Very old mobile browsers (pre-2019)
 
 ---
 
@@ -293,9 +293,38 @@ A star helps other developers discover this library!
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/malikrajat/rm-ng-range-slider/blob/main/LICENSE)
 
 
-## Acknowledgments
+---
 
-This library was created to provide a simple, performant, and customizable solution for range selection in Angular applications. Special thanks to the Angular community for their feedback and contributions.
+## Support This Project
+
+If **rm-ng-range-slider** has helped you build better Angular applications, please consider:
+
+If this library has saved you development time and helped create amazing image sliders in your projects, **please consider giving it a  star!** 
+
+ **Why star this repo?**
+- Help other developers discover this lightweight, optimized solution
+- Support continued development and improvements
+- Show appreciation for free, quality tools
+- Boost visibility in the Angular community
+- Increases visibility in the Angular community
+- Supports ongoing development and maintenance
+- Encourages more open-source contributions
+- Helps other developers find quality tools
+
+###  **Want More Quality Libraries?**
+
+This is just one of several useful libraries I've created. **[Explore my other Angular & web development libraries](https://github.com/malikrajat?tab=repositories)** that might solve your next challenge:
+
+-  **Utility libraries** for common development tasks
+-  **UI components** for better user experiences  
+-  **Performance tools** for optimization
+-  **Mobile-friendly solutions** for responsive apps
+
+**Found them helpful?** A star on each repo you find useful helps tremendously! It takes just one click but means the world to open-source maintainers.
+
+[![GitHub](https://img.shields.io/badge/View_All_Repositories-181717?logo=github)](https://github.com/malikrajat?tab=repositories)
+[![GitHub followers](https://img.shields.io/github/followers/malikrajat?style=social)](https://github.com/malikrajat)
+[![GitHub stars](https://img.shields.io/github/stars/malikrajat/rm-ng-range-slider?style=social)](https://github.com/malikrajat/rm-ng-range-slider/stargazers)
 
 ---
 
@@ -334,18 +363,35 @@ Need assistance? We're here to help!
 - Watch for new releases
 
 
+---
+
+## Acknowledgments
+
+This library was created to provide a simple, lightweight solution for Angular applications. Special thanks to the Angular community for their feedback and contributions.
+
+Special thanks to:
+- **[Angular Team](https://angular.dev/)** - Amazing framework and ecosystem
+- **Contributors** - Thank you for making this library better
+- **Community** - For feedback and feature requests
+
+
+---
+
 ## Other Libraries
 
 ### UI Components
 
-| Library                | Description                                                              | npm Link                                                                                                        |
-| ---------------------- | ------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------- |
-| **rm-range-slider**    | Lightweight two-thumb range slider with tooltips and color customization | [![npm](https://img.shields.io/npm/v/rm-range-slider.svg)](https://www.npmjs.com/package/rm-range-slider)       |
-| **rm-ng-range-slider** | Angular-specific version of the dual range slider                        | [![npm](https://img.shields.io/npm/v/rm-ng-range-slider.svg)](https://www.npmjs.com/package/rm-ng-range-slider) |
-| **rm-carousel**        | Simple, responsive carousel component                                    | [![npm](https://img.shields.io/npm/v/rm-carousel.svg)](https://www.npmjs.com/package/rm-carousel)               |
-| **rm-image-slider**    | Minimal image slider with smooth transitions                             | [![npm](https://img.shields.io/npm/v/rm-image-slider.svg)](https://www.npmjs.com/package/rm-image-slider)       |
-| **rm-ng-star-rating**  | Configurable Angular star rating component with readonly mode            | [![npm](https://img.shields.io/npm/v/rm-ng-star-rating.svg)](https://www.npmjs.com/package/rm-ng-star-rating)   |
+| Library                           | Description                                                              | npm Link                                                                                                        |
+|-----------------------------------| ------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------- |
+| **rm-range-slider**               | Lightweight two-thumb range slider with tooltips and color customization | [![npm](https://img.shields.io/npm/v/rm-range-slider.svg)](https://www.npmjs.com/package/rm-range-slider)       |
+| **rm-ng-range-slider**            | Angular-specific version of the dual range slider                        | [![npm](https://img.shields.io/npm/v/rm-ng-range-slider.svg)](https://www.npmjs.com/package/rm-ng-range-slider) |
+| **rm-carousel**                   | Simple, responsive carousel component                                    | [![npm](https://img.shields.io/npm/v/rm-carousel.svg)](https://www.npmjs.com/package/rm-carousel)               |
+| **rm-image-slider**               | Minimal image slider with smooth transitions                             | [![npm](https://img.shields.io/npm/v/rm-image-slider.svg)](https://www.npmjs.com/package/rm-image-slider)       |
+| **rm-ng-star-rating**             | Configurable Angular star rating component with readonly mode            | [![npm](https://img.shields.io/npm/v/rm-ng-star-rating.svg)](https://www.npmjs.com/package/rm-ng-star-rating)   |
+| **@codewithrajat/rm-ng-typeahead** | Angular autocomplete/typeahead component with search suggestions and keyboard navigation | [![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/malikrajat/rm-ng-typeahead) |
+| **@codewithrajat/rm-ng-editor**                  | Rich text editor component for Angular applications with customizable toolbar support | [![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/malikrajat/rm-ng-editor) |
 
+---
 
 ### PDF & Export Libraries
 
@@ -354,23 +400,71 @@ Need assistance? We're here to help!
 | **rm-ng-export-to-csv**                | Export JSON data to CSV with zero dependencies               | [![npm](https://img.shields.io/npm/v/rm-ng-export-to-csv.svg)](https://www.npmjs.com/package/rm-ng-export-to-csv)                               |
 | **@codewithrajat/rm-ng-pdf-export**    | Image-based PDF export tool for Angular applications         | [![npm](https://img.shields.io/npm/v/@codewithrajat/rm-ng-pdf-export.svg)](https://www.npmjs.com/package/@codewithrajat/rm-ng-pdf-export)       |
 | **@codewithrajat/rm-ng-structure-pdf** | Generate structured PDFs for reports, invoices, or documents | [![npm](https://img.shields.io/npm/v/@codewithrajat/rm-ng-structure-pdf.svg)](https://www.npmjs.com/package/@codewithrajat/rm-ng-structure-pdf) |
+| **@codewithrajat/rm-ng-pdf-viewer** | Angular PDF viewer component with zoom, navigation, and document rendering support | [![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/malikrajat/rm-ng-pdf-viewer) |
 
+---
 
-### Utility Libraries
+### Chrome Extension
+
+| Library | Description | Link                                                                                                                                    |
+|----------|-------------|-----------------------------------------------------------------------------------------------------------------------------------------|
+| **quickocr** | Chrome extension that extracts text from images using OCR technology | [![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/malikrajat/quickocr/releases)                                     |
+| **readLoude** | Chrome extension that read you web page loude e.g article etc. | [![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/malikrajat/readLoude/releases)                            |
+| **ai-assistant-reply** | AI Chrome extension to auto generate reply on linked in posts. | [![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/malikrajat/ai-assistant-reply/releases) |
+
+---
+
+### VS Code Extension
+
+| Library | Description | Link                                                                                                                                      |
+|----------|-------------|-------------------------------------------------------------------------------------------------------------------------------------------|
+| **dead-css-cleaner** | VS Code extension for identifying and cleaning unused CSS styles | [![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/malikrajat/dead-css-cleaner/releases)      |
+| **file-coverage-insight** | VS Code extension for auto generated component file coverage automatelly on open. | [![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/malikrajat/file-coverage-insight/releases) |
+
+---
+
+### Desktop Applications - All Plateform
+
+| Library | Description | Link                                                                                                                           |
+|----------|-------------|--------------------------------------------------------------------------------------------------------------------------------|
+| **deepwork** | Cross-platform productivity application for focus sessions and deep work tracking | [![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/malikrajat/deepwork/releases)          |
+| **JsSandbox** | Cross-platform JavaScript playground and code execution environment | [![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/malikrajat/JsSandbox/releases) |
+
+---
+
+### Device Detection
 
 | Library                        | Description                                             | npm Link                                                                                                                        |
 | ------------------------------ | ------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- |
 | **rm-ng-device-detection**     | Detect device type, OS, and browser in Angular          | [![npm](https://img.shields.io/npm/v/rm-ng-device-detection.svg)](https://www.npmjs.com/package/rm-ng-device-detection)         |
-| **rm-colorful-console-logger** | Stylish multi-color console logger for better debugging | [![npm](https://img.shields.io/npm/v/rm-colorful-console-logger.svg)](https://www.npmjs.com/package/rm-colorful-console-logger) |
 
+---
 
 ### Notifications
 
 | Library           | Description                                       | npm Link                                                                                              |
 | ----------------- | ------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
 | **rm-pushnotify** | Lightweight push-style toast notification utility | [![npm](https://img.shields.io/npm/v/rm-pushnotify.svg)](https://www.npmjs.com/package/rm-pushnotify) |
+| **@codewithrajat/rm-toast-notification** | Cross-platform toast and desktop notification library for web, Angular, and desktop applications | [![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/malikrajat/rm-toast-notification) |
 
 
+---
+
+### Layout & Dynamic Rendering
+
+| Library | Description | Link |
+|----------|-------------|------|
+| **rm-ng-dynamic-layout** | Dynamic layout rendering engine for Angular applications using JSON-driven UI configuration | [![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/malikrajat/rm-ng-dynamic-layout) |
+
+---
+
+### Developer Tools & Extensions
+
+| Library | Description | Link                                                                                                                            |
+|----------|-------------|---------------------------------------------------------------------------------------------------------------------------------|
+| **rm-colorful-console-logger** | Structured and colorized console logging utility for developers | [![npm](https://img.shields.io/npm/v/rm-colorful-console-logger.svg)](https://www.npmjs.com/package/rm-colorful-console-logger) |
+
+---
 
 ### Meta & Personal Branding
 
@@ -378,38 +472,56 @@ Need assistance? We're here to help!
 | --------------- | ---------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
 | **about-rajat** | Developer portfolio package for branding and quick personal info | [![npm](https://img.shields.io/npm/v/about-rajat.svg)](https://www.npmjs.com/package/about-rajat) |
 
+---
+
 
 ### All Packages
 
 Browse all my packages:
+- [npm: @codewithrajat](https://www.npmjs.com/~codewithrajat)
 - [npm: rajatmalik](https://www.npmjs.com/~rajatmalik)
 - [GitHub: @malikrajat](https://github.com/malikrajat?tab=repositories)
 
+
+---
 
 ## Author
 
 **Rajat Malik**
 
-Full-stack developer passionate about creating developer-friendly tools and libraries.
+Full‑Stack Developer and Frontend Architect at Siemens with 14+ years building scalable enterprise platforms, specializing in micro‑frontends, AI‑native development, React, and Angular.  
+Author of 10+ open‑source libraries and 100+ technical articles, driving innovation through developer‑friendly tools, performance optimization, and AI‑assisted workflows.
 
-- Website: [rajatmalik.dev](https://rajatmalik.dev)
-- Email: [mr.rajatmalik@gmail.com](mailto:mr.rajatmalik@gmail.com)
-- LinkedIn: [errajatmalik](https://linkedin.com/in/errajatmalik)
-- GitHub: [@malikrajat](https://github.com/malikrajat)
-- npm: [rajatmalik](https://www.npmjs.com/~rajatmalik)
+### GET IN TOUCH
+
+- Portfolio:  [rajatmalik.dev](https://rajatmalik.dev)
+- Email:      [mr.rajatmalik@gmail.com](mailto:mr.rajatmalik@gmail.com)
+- LinkedIn:   [errajatmalik](https://linkedin.com/in/errajatmalik)
+- GitHub:     [@malikrajat](https://github.com/malikrajat)
+- npm:        [rajatmalik](https://www.npmjs.com/~rajatmalik)
+
+### SOCIAL PRESENCE
+- Threads:    [rajatmalik](https://www.threads.net/@er.rajatmalik)
+- Twitter/X:  [rajatmalik](https://x.com/er_rajatmalik)
+- BlueSky:    [rajatmalik](http://devrajat.bsky.social)
+
+### CONTENT & WRITING
+
+- Medium:    [rajatmalik]( https://medium.com/@codewithrajat)
+- Dev.to:    [rajatmalik]( https://dev.to/codewithrajat)
+- Substack:   [rajatmalik](https://codewithrajat.substack.com)
+- Hashnode:   [rajatmalik](https://hashnode.com/@codeswithrajat)
 
 ---
 
-
 <p align="center">
-  <b>Built with care for the Angular community</b>
+  <p align="center">Made with care and love  by <a href="https://rajatmalik.dev">Rajat Malik</a> for the Angular community</p>
 </p>
 
 <p align="center">
   <a href="https://github.com/malikrajat/rm-ng-range-slider/stargazers">Star on GitHub</a> •
   <a href="https://www.npmjs.com/package/rm-ng-range-slider">View on npm</a> •
-  <a href="https://github.com/malikrajat/rm-ng-range-slider/issues">Report Issue</a> •
-  <a href="https://stackblitz.com/edit/stackblitz-starters-82qcpd">Try Demo</a>
+  <a href="https://github.com/malikrajat/rm-ng-range-slider/issues">Report Issue</a> 
 </p>
 
 <p align="center">

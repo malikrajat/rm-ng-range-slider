@@ -6,7 +6,25 @@ This project follows [Semantic Versioning](https://semver.org/).
 
 ---
 
-## [5.0.0] – 2025-XX-XX
+## [5.0.0] – 2026-07-26
+### Angular Upgrade Release
+
+### Added
+- Official support for **Angular 22**.
+- Updated Angular CLI to version 22 for enhanced build performance.
+- Updated ng-packagr to version 22 for improved library packaging.
+
+### Changed
+- Upgraded all Angular dependencies from v21 to v22 (`@angular/core`, `@angular/common`, `@angular/forms`, `@angular/platform-browser`, etc.).
+- Upgraded TypeScript to `~6.0.3` for compatibility with Angular 22.
+- Updated zone.js to `~0.15.0` for optimal performance with Angular 22.
+
+### Fixed
+- Build compatibility with Angular 22 strict mode requirements.
+
+---
+
+## [4.0.0] – 2025-XX-XX
 ### Major Update
 **Angular upgrade, performance improvements, and bug fixes**
 
@@ -27,7 +45,7 @@ This project follows [Semantic Versioning](https://semver.org/).
 
 ---
 
-## [4.0.0] – 2025-XX-XX
+## [3.0.0] – 2025-XX-XX
 ### Performance & Accessibility Release
 
 ### Added
@@ -45,7 +63,7 @@ This project follows [Semantic Versioning](https://semver.org/).
 
 ---
 
-## [3.0.0] – 2025-XX-XX
+## [2.0.0] – 2025-XX-XX
 ### Performance-Focused Release
 
 ### Added
@@ -62,7 +80,7 @@ This project follows [Semantic Versioning](https://semver.org/).
 
 ---
 
-## [2.0.0] – 2025-01-10
+## [1.0.0] – 2025-01-10
 ### Angular Compatibility Update
 
 ### Changed
@@ -76,7 +94,7 @@ This project follows [Semantic Versioning](https://semver.org/).
 
 ---
 
-## [1.0.0] – 2024-XX-XX
+## [0.0.1] – 2024-XX-XX
 ### Initial Release
 
 ### Added
