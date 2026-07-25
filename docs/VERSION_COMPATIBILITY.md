@@ -19,6 +19,7 @@ Using supported combinations is strongly recommended to avoid build-time or runt
 | 2.x.x           | Angular 19      | Node 18.x, 20.x | Supported |
 | 3.x.x           | Angular 20      | Node 20.x, 22.x | Supported |
 | 4.x.x           | Angular 21      | Node 22.x, 24.x | Supported |
+| 5.x.x           | Angular 22      | Node 22.x, 24.x | Supported |
 
 ---
 
